@@ -1,0 +1,23 @@
+# --- Core Application ---
+streamlit
+python-dotenv
+
+# --- AI, RAG, and Embeddings ---
+google-generativeai
+langchain
+langchain-community
+langchain-google-genai
+chromadb
+pdfplumber
+nltk
+
+# --- Audio/Video Transcription & Diarization ---
+# Note: For best results, especially on systems without a CUDA-enabled GPU,
+# it is highly recommended to install torch and torchaudio first using the
+# official command from PyTorch's website for your specific OS.
+# e.g., for CPU on macOS/Linux: pip3 install torch torchaudio
+torch
+torchaudio
+pandas
+whisperx @ git+https://github.com/m-bain/whisperx.git@f648677be6c7c1aca915d2a938a165c029745133
+pyannote.audio
