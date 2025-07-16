@@ -4,6 +4,8 @@ An Intelligent, Searchable Knowledge Base for Meetings.
 
 Cortex AI is a self-contained web application that transforms audio/video meeting recordings and supplementary PDF documents into a structured, persistent, and searchable knowledge base. It is designed to help teams capture and query the collective intelligence from their discussions.
 
+![Screen 1](CortexAI_UI.png)
+
 ## Core Features
 
 **Multi-Format Media Ingestion**: Accepts common audio (`.wav`, `.mp3`, `.m4a`) and video (`.mp4`, `.mov`, `.mkv`) formats for transcription.
